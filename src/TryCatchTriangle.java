@@ -16,6 +16,8 @@ public class TryCatchTriangle {
             System.out.println("Khong phai la so thuc");
         } catch (ArithmeticException e) {
             System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Error");
         } finally {
             System.out.println("End");
         }
